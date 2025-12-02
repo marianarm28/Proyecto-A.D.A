@@ -1,0 +1,18 @@
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+
+# Caché de pruebas
+.pytest_cache/
+
+# Entornos virtuales (por si tienes uno)
+env/
+venv/
+.env
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Nota: NO estamos ignorando los CSV ni la carpeta 'graficas'
+# porque para este proyecto escolar sirven como evidencia.
