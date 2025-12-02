@@ -22,10 +22,10 @@ Se demostró que el enfoque matemático reduce el tiempo de ejecución de segund
 2. Ejecutar el experimento:
    ```bash
    python experimento.py
-## Generar estadísticas y gráficas
+# Generar estadísticas y gráficas
   python resultados_estadisticos.py
   python graficas.py
 
-✒️ Autores
+## ✒️ Autores
 Andrea Castro García
 Mariana Romero Medina
