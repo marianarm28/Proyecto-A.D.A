@@ -1,6 +1,11 @@
 # proyecto/comun.py
 
 # Diccionario global para contadores
+
+###Este diccionario registra:
+# cuántas operaciones básicas hace cada algoritmo
+# cuántas llamadas o iteraciones internas ejecuta
+
 METRICAS = {
     "ops": 0,    # Operaciones básicas (sumas, mult, comparaciones clave)
     "calls": 0,  # Llamadas recursivas o iteraciones del bucle principal
@@ -8,9 +13,11 @@ METRICAS = {
 }
 
 def reiniciar_metricas():
+    ##Antes de cada repetición del experimento ponemos:
     METRICAS["ops"] = 0
     METRICAS["calls"] = 0
     METRICAS["max_depth"] = 0
+    #Esto asegura que cada ejecución comienza desde 0 operaciones y 0 llamadas.
 
 def encontrar_contacto_generico(P, funcion_calculo_combinatorio):
     """

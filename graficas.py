@@ -67,8 +67,8 @@ def generar_graficas():
     # ---------------------------------------------------------
     # GRÁFICA 4: COMPARACIÓN DE BARRAS (Para un P mediano)
     # ---------------------------------------------------------
-    # Elegimos un P que todos hayan completado (ej: 20)
-    P_target = 20
+    # Elegimos un P que todos hayan completado (ej: 252)
+    P_target = 252
     df_small = df[df['Valor_P'] == P_target]
     
     if not df_small.empty:
